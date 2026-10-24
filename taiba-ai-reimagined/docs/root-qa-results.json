@@ -1,0 +1,67 @@
+{
+  "testedAt": "2026-10-24T15:19:49.152Z",
+  "browser": "154.0.8037.57",
+  "results": [
+    {
+      "name": "Studio/history/campus bounds at seven widths and two themes",
+      "pass": true
+    },
+    {
+      "name": "Draft preserves across routes and theme",
+      "pass": true
+    },
+    {
+      "name": "First message transition and focus retention",
+      "pass": true
+    },
+    {
+      "name": "Repeated sends retain exact input DOM node and focus, drafts during streaming",
+      "pass": true
+    },
+    {
+      "name": "Notebook pin then edit persists locally",
+      "pass": true
+    },
+    {
+      "name": "Focus timer starts, ticks, pauses, resets",
+      "pass": true
+    },
+    {
+      "name": "Error and retry preserves draft",
+      "pass": true
+    },
+    {
+      "name": "Stopping stream preserves next draft",
+      "pass": true
+    },
+    {
+      "name": "Long mixed Arabic/English and reduced viewport composer bounds",
+      "pass": true
+    },
+    {
+      "name": "History search and deletion",
+      "pass": true
+    },
+    {
+      "name": "Campus details and unread/important filters",
+      "pass": true
+    },
+    {
+      "name": "English shell, prompts and response",
+      "pass": true
+    },
+    {
+      "name": "Mobile editor directions, full width, mode/send separation and 44px controls",
+      "pass": true
+    },
+    {
+      "name": "No runtime errors or external requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "requests": 60,
+  "limitations": [
+    "Headless Chromium only; resized viewports do not replicate actual iOS/Android software keyboards."
+  ]
+}

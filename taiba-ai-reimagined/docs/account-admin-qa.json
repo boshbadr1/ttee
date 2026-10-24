@@ -1,0 +1,438 @@
+{
+  "testedAt": "2026-10-24T15:19:39.747Z",
+  "browser": "154.0.8037.57",
+  "baseURL": "http://127.0.0.1:4174",
+  "functional": [
+    {
+      "name": "Profile save updates persistent state and studio greeting",
+      "status": "PASS"
+    },
+    {
+      "name": "Login error, visibility toggle, busy state and demo success",
+      "status": "PASS"
+    },
+    {
+      "name": "Password minimum, mismatch feedback, success and no credential persistence",
+      "status": "PASS"
+    },
+    {
+      "name": "Profile theme and language controls integrate with root shell",
+      "status": "PASS"
+    },
+    {
+      "name": "Student create, edit, search, duplicate rejection, deactivate and reset",
+      "status": "PASS"
+    },
+    {
+      "name": "Announcement create/edit/delete synchronized with Campus route",
+      "status": "PASS"
+    },
+    {
+      "name": "All 22 providers, filtering, quota indicators, switches and local health check",
+      "status": "PASS"
+    },
+    {
+      "name": "English/LTR at 320px: all account routes and all admin tabs without page overflow",
+      "status": "PASS"
+    }
+  ],
+  "layout": [
+    {
+      "width": 375,
+      "theme": "light",
+      "target": "profile",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "target": "login",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "target": "password",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "target": "admin/overview",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "target": "admin/students",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "target": "admin/announcements",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "target": "admin/providers",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "target": "profile",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "target": "login",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "target": "password",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "target": "admin/overview",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "target": "admin/students",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "target": "admin/announcements",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "target": "admin/providers",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "target": "profile",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "target": "login",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "target": "password",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "target": "admin/overview",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "target": "admin/students",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "target": "admin/announcements",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "target": "admin/providers",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "target": "profile",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "target": "login",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "target": "password",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "target": "admin/overview",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "target": "admin/students",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "target": "admin/announcements",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "target": "admin/providers",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "language": "en",
+      "target": "profile",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "language": "en",
+      "target": "login",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "language": "en",
+      "target": "password",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "language": "en",
+      "target": "admin/overview",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "language": "en",
+      "target": "admin/students",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "language": "en",
+      "target": "admin/announcements",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "language": "en",
+      "target": "admin/providers",
+      "overflow": false
+    }
+  ],
+  "accessibility": {
+    "tool": "axe-core",
+    "tags": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21aa",
+      "wcag22aa"
+    ],
+    "scans": [
+      {
+        "width": 375,
+        "theme": "light",
+        "target": "profile",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "light",
+        "target": "login",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "light",
+        "target": "password",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "light",
+        "target": "admin/overview",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "light",
+        "target": "admin/students",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "light",
+        "target": "admin/announcements",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "light",
+        "target": "admin/providers",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "dark",
+        "target": "profile",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "dark",
+        "target": "login",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "dark",
+        "target": "password",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "dark",
+        "target": "admin/overview",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "dark",
+        "target": "admin/students",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "dark",
+        "target": "admin/announcements",
+        "violations": []
+      },
+      {
+        "width": 375,
+        "theme": "dark",
+        "target": "admin/providers",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "light",
+        "target": "profile",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "light",
+        "target": "login",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "light",
+        "target": "password",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "light",
+        "target": "admin/overview",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "light",
+        "target": "admin/students",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "light",
+        "target": "admin/announcements",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "light",
+        "target": "admin/providers",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "dark",
+        "target": "profile",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "dark",
+        "target": "login",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "dark",
+        "target": "password",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "dark",
+        "target": "admin/overview",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "dark",
+        "target": "admin/students",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "dark",
+        "target": "admin/announcements",
+        "violations": []
+      },
+      {
+        "width": 1280,
+        "theme": "dark",
+        "target": "admin/providers",
+        "violations": []
+      }
+    ]
+  },
+  "errors": [],
+  "network": {
+    "requests": 39,
+    "external": []
+  },
+  "limitations": [
+    "Headless Chromium only; real Android/iOS keyboard and assistive-technology testing not performed."
+  ]
+}

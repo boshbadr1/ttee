@@ -1,0 +1,15 @@
+{
+  "testedAt": "2026-10-24T15:24:07.839138+00:00",
+  "delivery": "single embedded HTML, served in an isolated page route",
+  "checks": [
+    "Local font loading",
+    "Demo chat and code response",
+    "Pin to notebook",
+    "22-provider admin module",
+    "Embedded concept summary dialog"
+  ],
+  "result": "PASS",
+  "javascriptErrors": [],
+  "dependentNetworkRequests": 0,
+  "limitation": "Direct file:// navigation is blocked by browser administration in this environment; file behavior on a user device was not claimed as tested."
+}

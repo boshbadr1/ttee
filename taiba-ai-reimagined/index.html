@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="طيبة AI — رواق. مساحة للتفكير، ودفتر لأفكارك، وطريقك لفهم أعمق. نموذج تفاعلي مستقل.">
+  <title>طيبة AI — رواق التعلّم</title>
+  <link rel="icon" href="assets/riwaq.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/arabic-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="screens.css">
+  <script src="demo.js" defer></script>
+  <script src="screens.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#view">انتقل للمحتوى</a>
+  <div class="shell" id="shell">
+    <header class="masthead" id="masthead"></header>
+    <main id="view" tabindex="-1"></main>
+    <footer class="statusbar" id="statusbar"></footer>
+    <nav class="mobile-dock" id="mobile-dock" aria-label="التنقّل الرئيسي"></nav>
+  </div>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="live" class="sr-only" role="status" aria-live="polite"></div>
+  <input type="file" id="file-picker" accept=".txt,.md,.csv" hidden>
+  <noscript>يرجى تفعيل JavaScript لاستخدام رواق طيبة.</noscript>
+</body>
+</html>

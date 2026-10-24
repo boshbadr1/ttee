@@ -1,0 +1,198 @@
+{
+  "testedAt": "2026-10-24T15:18:01.070Z",
+  "engine": "axe-core on Chromium",
+  "records": [
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "studio",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "reading",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "history",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "campus",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "profile",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "login",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "password",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "admin",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "studio",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "reading",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "history",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "campus",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "profile",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "login",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "password",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "admin",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "studio",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "reading",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "history",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "campus",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "profile",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "login",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "password",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "admin",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "studio",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "reading",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "history",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "campus",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "profile",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "login",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "password",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "admin",
+      "violations": []
+    }
+  ]
+}
