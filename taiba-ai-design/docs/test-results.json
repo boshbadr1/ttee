@@ -1,0 +1,127 @@
+{
+  "testedAt": "2026-10-24T14:18:51.287Z",
+  "browser": "154.0.8037.57",
+  "results": [
+    {
+      "name": "Seven required viewport widths, both themes: shell and composer bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile drawer focus trap and Escape",
+      "status": "PASS"
+    },
+    {
+      "name": "Draft survives screen navigation and new-chat suggestions",
+      "status": "PASS"
+    },
+    {
+      "name": "Consecutive sends, composer focus, streamed demo and Markdown code/table copying",
+      "status": "PASS"
+    },
+    {
+      "name": "Recoverable demo error, draft preservation and retry",
+      "status": "PASS"
+    },
+    {
+      "name": "Composer expands with capped height; long Arabic and English tokens do not overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Reduced mobile viewport (keyboard approximation), portrait and landscape",
+      "status": "PASS"
+    },
+    {
+      "name": "Local demo login: validation, show/hide, loading and success",
+      "status": "PASS"
+    },
+    {
+      "name": "Password change: 12-character minimum, matching and local-only success",
+      "status": "PASS"
+    },
+    {
+      "name": "Profile preferences and dynamic greeting",
+      "status": "PASS"
+    },
+    {
+      "name": "Announcements: details, read/unread and filters",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin: add/search/activate student and simulate reset",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin: create, edit and remove local announcement",
+      "status": "PASS"
+    },
+    {
+      "name": "Provider toggles and demo health check",
+      "status": "PASS"
+    },
+    {
+      "name": "English UI, LTR shell, English sample response and language persistence",
+      "status": "PASS"
+    },
+    {
+      "name": "No JavaScript errors, failed assets or external service requests",
+      "status": "PASS"
+    },
+    {
+      "name": "Drawer closes and restores interaction when resizing to desktop",
+      "status": "PASS"
+    },
+    {
+      "name": "Stopping a stream preserves input and yields a completed state",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload during loading becomes retryable and draft persists",
+      "status": "PASS"
+    },
+    {
+      "name": "Safe Markdown and filename attachment are local-only",
+      "status": "PASS"
+    },
+    {
+      "name": "History search, delete confirmation, native modal focus trap",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Headless Chromium only. Real iOS/Android software keyboards and browser chrome require physical-device testing.",
+    "Screenshots use reduced-motion preference to capture settled layouts."
+  ],
+  "supplementaryAdminAccessibility": [
+    {
+      "theme": "light",
+      "tab": "students",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "tab": "providers",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "tab": "announcements",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "tab": "students",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "tab": "providers",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "tab": "announcements",
+      "violations": []
+    }
+  ]
+}

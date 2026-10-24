@@ -1,0 +1,149 @@
+{
+  "tool": "axe-core",
+  "results": [
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "chat",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "login",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "password",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "profile",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "announcements",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "route": "admin",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "chat",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "login",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "password",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "profile",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "announcements",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "route": "admin",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "chat",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "login",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "password",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "profile",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "announcements",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "route": "admin",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "chat",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "login",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "password",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "profile",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "announcements",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "route": "admin",
+      "violations": []
+    }
+  ]
+}
