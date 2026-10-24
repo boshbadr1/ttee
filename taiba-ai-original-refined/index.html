@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#f9f9f7">
+  <meta name="description" content="طيبة AI — رفيقك الجامعي الذكي. نموذج واجهة تفاعلي ببيانات تجريبية فقط.">
+  <title>✦ طيبة AI — رفيقك الجامعي</title>
+  <link rel="icon" type="image/svg+xml" href="assets/taiba-mark.svg">
+  <link rel="preload" href="assets/arabic-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="demo.js" defer></script>
+  <script src="assets/i18n.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">انتقل إلى المحتوى</a>
+  <div class="app-shell" id="app-shell">
+    <button class="drawer-scrim" id="drawer-scrim" aria-label="إغلاق القائمة"></button>
+    <aside class="sidebar" id="sidebar" aria-label="القائمة الرئيسية">
+      <div class="sidebar-brand"><a href="#chat" class="brand" aria-label="طيبة AI الرئيسية"><span class="brand-mark" data-icon="spark"></span><span>طيبة <b dir="ltr">AI</b><small>TAIBA · YOUR CAMPUS COMPANION</small></span></a><button class="icon-button mobile-only" data-action="close-sidebar" aria-label="إغلاق القائمة" data-icon="close"></button></div>
+      <button class="new-chat" data-action="new-chat"><span data-icon="plus"></span>محادثة جديدة<span class="shortcut" dir="ltr">⌘ K</span></button>
+      <label class="search-field"><span data-icon="search"></span><input id="chat-search" type="search" placeholder="ابحث في محادثاتك..." aria-label="ابحث في محادثاتك" autocomplete="off"><kbd>/</kbd></label>
+      <nav class="main-nav" aria-label="مساحات العمل"><a href="#chat" data-nav="chat"><span data-icon="chat"></span>مساحتك الذكية<span class="nav-dot"></span></a><a href="#announcements" data-nav="announcements"><span data-icon="megaphone"></span>إعلانات الجامعة<span class="count-badge" id="announcement-count">3</span></a></nav>
+      <div class="history-label">محادثاتك الأخيرة<span data-icon="history"></span></div>
+      <div class="history-list" id="history-list"></div>
+      <div class="sidebar-bottom"><div class="campus-note"><span class="campus-icon" data-icon="graduation"></span><div><strong>خطوة صغيرة، فكرة كبيرة.</strong><p>مساحتك للتعلّم، كل يوم.</p></div><span class="mini-spark" data-icon="spark"></span></div><div class="sidebar-links"><a href="#admin"><span data-icon="grid"></span>لوحة الإدارة التجريبية<span data-icon="arrow-up-left"></span></a></div><button class="account-button" data-action="account-menu" aria-expanded="false"><span class="avatar">ب</span><span class="account-name"><strong id="account-name">بدر أحمد</strong><small>طالب · تكنولوجيا المعلومات</small></span><span data-icon="chevrons"></span></button></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><div class="topbar-title"><button class="icon-button mobile-only" data-action="open-sidebar" aria-label="فتح القائمة" data-icon="menu"></button><span class="mobile-only mobile-brand"><span data-icon="spark"></span>طيبة <b dir="ltr">AI</b></span><span class="desktop-only topbar-emblem" data-icon="spark"></span><span class="topbar-divider desktop-only"></span><span id="page-title" class="desktop-only">محادثة جديدة</span><span class="version-tag">طيبة AI</span></div><div class="topbar-actions"><span class="demo-pill"><span></span>نسخة تجريبية</span><button class="icon-button" data-action="toggle-theme" aria-label="تفعيل المظهر الداكن" id="theme-toggle" data-icon="moon"></button><button class="icon-button notification-button" data-action="notifications" aria-label="إعلانات الجامعة، ثلاثة إعلانات جديدة"><span data-icon="bell"></span><i></i></button><button class="icon-button mobile-only" data-action="new-chat" aria-label="محادثة جديدة" data-icon="edit"></button></div></header>
+      <main id="main-content" tabindex="-1"></main>
+      <div class="composer-region" id="composer-region"><div id="attachment-preview"></div><form class="composer" id="composer-form"><label class="sr-only" for="message-input">رسالتك إلى طيبة</label><textarea id="message-input" name="chat-message" rows="1" placeholder="اسأل، فكّر، واستكشف مع طيبة..." autocomplete="off" autocapitalize="sentences" data-lpignore="true" data-1p-ignore dir="auto"></textarea><div class="composer-tools"><div class="composer-options"><button class="icon-button" type="button" data-action="attach" aria-label="إرفاق ملف نصي" data-icon="plus"></button><span class="tool-divider"></span><button type="button" class="mode-button" data-action="mode-menu" aria-expanded="false"><span data-icon="spark"></span><span id="mode-label">مساعد الدراسة</span><span data-icon="chevron-down"></span></button></div><div class="send-tools"><span class="enter-hint">Enter للإرسال</span><button class="send-button" id="send-button" type="submit" aria-label="إرسال الرسالة" disabled data-icon="arrow-up"></button></div></div></form><p class="composer-disclaimer">طيبة رفيقك في التعلّم، وفكرك هو الأساس. <span>الردود تجريبية وليست من ذكاء اصطناعي مباشر.</span></p></div>
+      <footer class="workspace-footer"><span>صُنع لرحلتك الجامعية</span><span class="footer-university"><span data-icon="university"></span>جامعة طيبة التكنولوجية</span><button data-action="about">عن طيبة<span data-icon="arrow-up-left"></span></button></footer>
+    </div>
+  </div>
+  <div id="popover-root"></div>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="live-status" class="sr-only" role="status" aria-live="polite"></div>
+  <input type="file" id="file-input" accept=".txt,.md,.csv" hidden>
+  <noscript>يرجى تفعيل JavaScript لاستخدام النموذج التفاعلي.</noscript>
+</body>
+</html>

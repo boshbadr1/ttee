@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Original star and purple palette",
+    "Dynamic welcome",
+    "Embedded fonts/CSS/scripts",
+    "Chat/code and retained input focus",
+    "All22 provider UI",
+    "No dependent network requests or JavaScript errors"
+  ],
+  "requests": 1,
+  "errors": [],
+  "limitation": "Verified as one isolated HTML resource in Chromium. Local file navigation is administratively blocked here; no physical-phone claim."
+}

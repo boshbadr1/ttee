@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "deviceProfile": "iPhone 13",
+      "engine": "Chromium (not the device native browser)",
+      "touchSendCount": 3,
+      "sameTextareaAndFocus": true,
+      "documentScrollTop": 0,
+      "errors": []
+    },
+    {
+      "deviceProfile": "Pixel 5",
+      "engine": "Chromium (not the device native browser)",
+      "touchSendCount": 3,
+      "sameTextareaAndFocus": true,
+      "documentScrollTop": 0,
+      "errors": []
+    }
+  ],
+  "limitation": "Chromium mobile/touch emulation only. Does not run physical keyboards or Safari/WebKit."
+}

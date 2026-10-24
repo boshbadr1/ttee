@@ -1,0 +1,141 @@
+{
+  "testedAt": "2026-10-24T15:49:52.348Z",
+  "browser": "154.0.8037.57",
+  "baseURL": "http://127.0.0.1:4175",
+  "functional": [
+    {
+      "name": "Original four providers retained and expanded to22",
+      "status": "PASS"
+    },
+    {
+      "name": "Search and status filters work in both themes; switching preserves the search",
+      "status": "PASS"
+    },
+    {
+      "name": "Demo health check, no real key inputs, dynamic overview total",
+      "status": "PASS"
+    },
+    {
+      "name": "Provider controls do not appear in Chat",
+      "status": "PASS"
+    },
+    {
+      "name": "Migration preserves saved4-provider bindings and appends18 defaults",
+      "status": "PASS"
+    }
+  ],
+  "layout": [
+    {
+      "width": 320,
+      "theme": "light",
+      "documentWidth": 320,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "documentWidth": 320,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "theme": "light",
+      "documentWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "theme": "dark",
+      "documentWidth": 360,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "documentWidth": 375,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "documentWidth": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "documentWidth": 390,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "documentWidth": 390,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "theme": "light",
+      "documentWidth": 430,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "theme": "dark",
+      "documentWidth": 430,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "documentWidth": 768,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "documentWidth": 768,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "documentWidth": 1280,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "documentWidth": 1280,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 375,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "network": {
+    "requests": 13,
+    "external": []
+  },
+  "note": "Rounded original provider cards and lavender tokens retained. No API keys or external service requests."
+}

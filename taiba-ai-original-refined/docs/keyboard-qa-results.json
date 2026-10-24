@@ -1,0 +1,49 @@
+{
+  "testedAt": "2026-10-24T15:48:49.461Z",
+  "browser": "154.0.8037.57",
+  "results": [
+    {
+      "name": "Exact textarea node/focus and zero induced blur across three sends, including the first",
+      "status": "PASS"
+    },
+    {
+      "name": "Previous user/assistant articles retain DOM identity while the next response streams",
+      "status": "PASS"
+    },
+    {
+      "name": "Reading position away from the bottom remains stable during streaming and textarea expansion",
+      "status": "PASS"
+    },
+    {
+      "name": "patchAssistant preserves horizontal scroll in its code and table containers",
+      "status": "PASS"
+    },
+    {
+      "name": "Seven required widths, both themes and both languages: stable native viewport and empty directions",
+      "status": "PASS"
+    },
+    {
+      "name": "Short native portrait/landscape viewports retain composer without document scrolling",
+      "status": "PASS"
+    },
+    {
+      "name": "Auto direction for entered text and capped expanding16px mobile textarea",
+      "status": "PASS"
+    },
+    {
+      "name": "Overlay/pan VisualViewport bridge coalesces one RAF, avoids unchanged style writes and never changes focus",
+      "status": "PASS"
+    },
+    {
+      "name": "No JavaScript errors, failed assets, or external service requests",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "requests": 11,
+  "limitations": [
+    "Headless Chromium on Linux only.",
+    "Viewport geometry simulations do not reproduce real iOS Safari or Android software keyboard animation, browser chrome, safe areas, IME composition, or password manager overlays.",
+    "No claim of real-device or Safari testing."
+  ]
+}

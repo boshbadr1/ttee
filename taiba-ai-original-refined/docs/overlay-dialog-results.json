@@ -1,0 +1,21 @@
+{
+  "reports": [
+    {
+      "surface": "about dialog",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "surface": "about dialog",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "surface": "mode popover",
+      "simulatedVisualHeight": 410,
+      "simulatedOffsetTop": 35,
+      "withinVisibleBounds": true
+    }
+  ],
+  "limitation": "Mocked visual viewport in Chromium, not a real keyboard."
+}
